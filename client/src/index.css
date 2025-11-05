@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Urbanist;
+    src: url('./fonts/Urbanist-VariableFont_wght.woff');
+}
+@font-face {
+    font-family: Besley;
+    src: url('./fonts/Besley-Italic-VariableFont_wght.woff');
+}
+@font-face {
+    font-family: Arsenica;
+    src: url('./fonts/ArsenicaTrial-Bold.woff');
+}
+
+ *::-webkit-scrollbar{
+    display: none;
+ }
+
+@keyframes opacity {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.opacity {
+  animation: opacity 3s linear infinite;
+}
+
+ 

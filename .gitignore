@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+
+# Logs
+*.log
+logs/
+server/*.log
+server/error.log
+server/info.log
+
+# Build outputs
+client/dist/
+client/build/
+server/dist/
+server/build/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package manager files (keep package-lock.json for consistency)
+yarn.lock
+pnpm-lock.yaml
+
+# Cache directories
+.npm
+.eslintcache
+.parcel-cache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
