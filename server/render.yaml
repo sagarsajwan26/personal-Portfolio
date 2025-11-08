@@ -2,7 +2,7 @@ services:
   - type: web
     name: portfolio-server
     env: node
-    rootDir: ./
+    rootDir: ./server
     buildCommand: npm install
     startCommand: npm start
     envVars:
